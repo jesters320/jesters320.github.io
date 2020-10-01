@@ -24,15 +24,13 @@ $( document ).ready(function() {
 			// scroll to the top of the link
 			$('html, body').animate(
 				{scrollTop: $(this).offset().top},
-				2000
+				2000	
 				);
 		  }
 		);
 		
 		$(".address").offset({left: -5000}).css({"position" : "absolute"});
+		
+		var d = new Date();
+		$("#footer").append(" " + d.getFullYear() + " made by jessa co.")
   });
-
-function getFooter() {
-  var d = new Date();
-  return d.getFullYear() + ' made by jessa co.';
-}
