@@ -16,12 +16,12 @@
 
 @font-face {
 	font-family: 'Anodyne'; 
-	src: url('<%= asset_path("Anodyne.otf") %> ');
+	src: url('../../assets/fonts/Anodyne.otf') %> ');
 }
 
 @font-face {
 	font-family: 'Quicksand_Book'; 
-	src: url('<%= asset_path("Quicksand_Book.otf") %> ');
+	src: url(''../../assets/fonts/Quicksand_Book.otf') %> ');
 }
  
 /* tags */
